@@ -26,6 +26,7 @@ def balancedBrackets(str):
 
     for c in line:
         # if we see an opener, push it onto our stack
+        
         if c in openers:
             stack.append(c)
         elif c in closers:

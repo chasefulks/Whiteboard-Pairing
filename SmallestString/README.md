@@ -20,3 +20,7 @@ expected output: "a2" since 2 comes before 10
 ```
 
 Analyze the time and space complexity of your solution.
+
+strings = ["some", "example", "words", "that", "i", "am", "fond", "of"]
+
+print min(strings, key=len)
